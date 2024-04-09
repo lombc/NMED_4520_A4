@@ -2,21 +2,29 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: gray;
+  background-color: blanchedalmond;
 }
 
 .page-concept {
   text-align: center;
+  font-family: 'XPTahoma', sans-serif;
+  font-size: 2.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.instruct {
+  text-align: center;
+  font-family: 'XPTahoma', sans-serif;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+
 }
 
 #browser1 {
   background-color: beige;
   font-family: 'Theano-Didot', serif;
-}
-
-#browser2 {
-  background-color: #f0f0f0;
-  font-family: 'Source Sans 3', sans-serif;
 }
 
 .icon-link {
@@ -99,7 +107,7 @@ body {
 .screen {
   position: absolute;
   top: 50px;
-  left: 50px;
+  left: 500px;
   width: 800px;
   height: 550px;
   border-radius: 10px;
@@ -222,6 +230,11 @@ body {
   font-style: italic;
   text-align: center;
   margin-bottom: 0.5em;
+}
+
+.column-piece {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.8em;
 }
 
 .references {
